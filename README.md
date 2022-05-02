@@ -1,1 +1,1 @@
-[Logs](https://nottherealsanta.github.io/logs)
+[mlogs](nottherealsanta.com/mlogs)
