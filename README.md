@@ -1,1 +1,1 @@
-[mlogs](nottherealsanta.com/mlogs)
+[mlogs](http://nottherealsanta.com/mlogs)
