@@ -1,0 +1,58 @@
+/* import IBM font */
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700);
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 150s ease infinite;
+    height: 100vh;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.parent {
+    height: 100%;
+    width: 100%;
+    padding-top: 20%;
+}
+
+.container {
+    margin-left: 10%;
+    margin-bottom: 2%;
+    padding: 10;
+    padding-right: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    /* /* height: 20%; */
+    width: min-content; 
+    border: #ffffff solid 5px;
+    border-radius: 3px;
+}
+.container:hover{
+    background-color: #ffffff33;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
